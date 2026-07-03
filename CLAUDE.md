@@ -8,6 +8,8 @@ Study/practice project (VibeCoding Study-06). The main artifact is `index.html` 
 
 There is no build, lint, or test tooling. To run the app, open `index.html` directly in a browser (e.g. `start index.html` in PowerShell); it needs network access to reach the CDN and Supabase.
 
+The git remote is `jundalsong/Shopping-List-App` on GitHub, which is connected to the Vercel project `shopping-list-app` (team `hogongvibe`) — pushing to `main` auto-deploys to https://shopping-list-app-chi-nine.vercel.app/. `.vercelignore` keeps CLAUDE.md and `.claude/` out of the public deployment.
+
 UI text is in Korean; keep new user-facing strings in Korean to match.
 
 ## Custom skill
